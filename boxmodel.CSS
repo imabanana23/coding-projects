@@ -1,0 +1,24 @@
+#division1{
+    background-color: gold;
+    border: 10px solid rgba(6, 110, 6, 0.863);
+    background-color: rgb(4, 24, 114);
+    color: rgba(230, 10, 10, 0.897);
+    width: 200px
+    border 15px solid red;
+    padding: 50px;
+    margin: 20px;
+    text-align: end;
+
+}
+#division2{
+    background-color: gold;
+    border: 10px solid rgba(6, 110, 6, 0.863);
+    background-color: rgb(4, 24, 114);
+    color: rgba(230, 10, 10, 0.897);
+    width: 200px
+    border 15px solid red;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+
+}
