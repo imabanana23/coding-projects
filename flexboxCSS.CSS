@@ -1,0 +1,11 @@
+#containor1{
+    background-color: black;
+    color: beige;
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+}
+.div1{
+    background-color: rgba(190, 106, 10, 0.973);
+    width: 20px;
+}
