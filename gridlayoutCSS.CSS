@@ -1,0 +1,13 @@
+.grid-layout{
+    background-color: rgba(240, 240, 7, 0.904);
+    display: grid;
+    grid-template-columns: 50px auto auto auto auto auto;
+    gap: 4px;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.grid-item{
+    background-color:red ;
+text-align: justify;
+}
