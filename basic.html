@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>slider</title>
+    </head>
+    <body>
+        <section>
+            <img class="myslides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bl%C3%BChendes_Strand-Milchkraut_%28Glaux_maritima%29_am_Strand_von_Norderney_03.jpg/250px-Bl%C3%BChendes_Strand-Milchkraut_%28Glaux_maritima%29_am_Strand_von_Norderney_03.jpg">
+            <img class="myslides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Myosotis_scorpioides_-_Niitv%C3%A4lja_bog.jpg/240px-Myosotis_scorpioides_-_Niitv%C3%A4lja_bog.jpg">
+            
+        </section>
+        <script>
+            var myindex=0
+            carousel()
+            function carousel(){
+                var i
+                var x=document.getElementsByClassName("myslides")
+                for(i=0;i<x.length;i++){
+                    x[i].style.display="none"
+                }
+                myindex++
+                if (myindex>x.length){
+                    myindex=1
+                }
+                x[myindex-1].style.display="block"
+                setTimeout(carousel,3000)
+            }
+        </script>
+        <source>
+    </body>
+</html>
