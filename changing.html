@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>changing css propeties in javascript</title>
+        <style>
+            .division1{
+                border: 4px dotted orange;
+                height: 400px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>make square into a circle</h1>
+        <div class="division1" id="division1">
+
+        </div>
+        <button onclick="change()">make a circle</button>
+        <button onclick="hide()">hide</button>
+        <button onclick="show()">show</button>
+        <button>undo</button>
+        <script>
+            let a= document.getElementById("division1")
+            function change(){
+           a.style.borderRadius="50%";
+            }
+            function hide(){
+             a.style.display="none"
+            }
+            function show(){
+            a.style.display="block"
+            }
+            a.onmouseenter=function(){
+                a.style.backgroundColor="purple"
+            }
+            a.onmouseout=function(){
+                a.style.backgroundColor="purple"
+            }
+        </script>
+    </body>
+</html>
