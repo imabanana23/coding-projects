@@ -24,4 +24,20 @@ def initial_phonebook():
         phone_book.append(temp)
     print(phone_book)
     return phone_book
-initial_phonebook()
+pb=initial_phonebook()
+
+def add_contact(pb):
+    #adding a contact is the easiest because all you need to do is
+    #append another list of details into the already existing list
+    dip=[]
+    for i in range(len(pb[0])):
+        if i==0:
+            dip.append(str(input("enter name"))),2
+        if i==1:
+            dip.append(str(input("enter number")))
+    pb.append(dip)
+    return(pb)
+pb=add_contact(pb)
+print(pb)
+    
+  
